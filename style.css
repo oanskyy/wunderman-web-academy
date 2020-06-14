@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+:root {
+  --main-blue-color: #399eef;
+  --subtitle-blue-color: #4595cc;
+  --light-grey-color: #ededf0;
+  --footer-end-color: #444444; 
+}
+
+body { 
+  font: 12px/150% 'Roboto', sans-serif;
+}
+
+.navbar { 
+  border-top: 8px solid var(--main-blue-color);
+  padding: 29px 0;
+}
+
+.brand { 
+  color: var(--main-blue-color);
+  font-weight: 300;
+  height: inherit;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--main-blue-color);
+  font-size: 2.1rem; 
+  font-weight: 300; 
+  letter-spacing: 1px;
+  height: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 0.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: var(--main-blue-color);
+}
+
+.navbar-light { 
+  background-color: #fff;
+}
+
+.image-wrapper { 
+  position: relative;
+  height: 345px; 
+  overflow: hidden; 
+} 
+
+.image-wrapper img { 
+  position: relative; 
+  top: 15%; 
+  transform: translateY(-18%); 
+  max-width: 100%;
+  min-height: 345px;
+}
+
+.text-content { 
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%);
+  left: 0; 
+  width: 100%; 
+} 
+
+h2 { 
+  color: var(--main-blue-color);
+}
+
+h5, h6 { 
+  color: var(--subtitle-blue-color);;
+}
+
+h5 + p, h6 + p { 
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+.bg-grey { 
+  background-color: var(--light-grey-color);
+}
+
+.card, .card-img, .card-img-top {
+  border-radius: 0;
+  border: none;
+}
+
+.contact-details { 
+  background-color: var(--main-blue-color);
+}
+
+a, a:hover { 
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary, .btn-primary:hover { 
+  background-color: #fff;
+  color: var(--main-blue-color);
+  border: none;
+}
+
+.contact-details .form {
+  width: 250px;
+}
+
+.contact-details input {
+  height: 30px;
+  font-size: 0.8rem;
+}
+
+.contact-details button {
+  height: 30px;
+  font-size: 0.8rem; 
+}
+
+.footer-end { 
+  background-color: var(--footer-end-color);
+}

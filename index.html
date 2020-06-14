@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Web Academy</title>
+
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+    <header>
+      <!-- Navbar goes here -->
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+          
+          <!-- Brand Image and text -->
+          <a class="navbar-brand" href="#">
+            <img src="./img/wunderman-logo.png" width="45" height="45" class="d-inline-block mr-2" alt="wunderman-logo" loading="lazy" />
+            <span class="brand">Web Academy</span>
+          </a>
+
+          <!-- Hamburger Menu Toggle -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation links -->
+          <div class="collapse navbar-collapse justify-content-end text-uppercase" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link mr-2" href="#">Home</a>
+              <a class="nav-item nav-link mr-2" href="#">Style Demo</a>
+              <a class="nav-item nav-link mr-2" href="#">Full Width</a>
+              <a class="nav-item nav-link mr-2" href="#">Dropdown</a>
+              <a class="nav-item nav-link mr-2" href="#">Portofolio</a>
+              <a class="nav-item nav-link mr-5" href="#">Gallery</a>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Image goes here -->
+      <section id="large-hero" class="image-wrapper">
+        <picture> 
+          <source media="(min-width:1000px)" srcset="./img/hero@2x.jpg"> 
+          <img src="./img/hero.jpg" alt="blurred image of girl on phone"> 
+        </picture>
+
+        <div class="container text-center text-white">
+          <div class="text-content">
+            <h1>Wunderman Web Academy</h1>
+            <h4>Oana's Test</h4>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Key points section goes here -->
+      <section id="key-points">
+        <div class="container text-center py-4">
+          <h2 class="font-weight-light py-4">Web Academy key points</h2>
+          <div class="row">
+            <article class="col-md-4">
+              <h5 class="font-weight-light mb-3">Lorum ipsum dolor</h5>
+              <p class="font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aen ean nunc aenean quis nam nis.</p>	
+            </article>
+            <article class="col-md-4">
+              <h5 class="font-weight-light mb-3">Lorum ipsum dolor</h5>
+              <p class="font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aen ean nunc aenean quis nam nis.</p>
+            </article>
+            <article class="col-md-4">
+              <h5 class="font-weight-light mb-3">Lorum ipsum dolor</h5>
+              <p class="font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum. Metridiculis conseque quis iaculum aen ean nunc aenean quis nam nis.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Portrait gallery goes here -->
+      <section id="portrait-gallery" class="bg-grey">
+        <div class="container text-center py-5">
+          <h2 class="font-weight-light mb-5">Web Academy faces</h2>
+
+          <!-- Card deks -->
+          <div class="card-deck">
+            <div class="card">
+              <img src="./img/profile-1.jpg" class="card-img-top px-2 pt-2" alt="portrait of a man1">
+              <div class="card-body">
+                <h6 class="card-title font-weight-light">Lorum ipsum dolor</h6>
+                <p class="card-text font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/profile-2.jpg" class="card-img-top px-2 pt-2" alt="portrait of a man2">
+              <div class="card-body">
+                <h6 class="card-title font-weight-light">Lorum ipsum dolor</h6>
+                <p class="card-text font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/profile-3.jpg" class="card-img-top px-2 pt-2" alt="portrait of a man3">
+              <div class="card-body">
+                <h6 class="card-title font-weight-light">Lorum ipsum dolor</h6>
+                <p class="card-text font-weight-lighter">Orciinterdum condimenterdum nullamcorper elit nam curabitur laoreet met praesenean et iaculum.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <!-- Contact details and form go here -->
+      <div class="contact-details">
+        <div class="container text-white py-4">
+          <div class="row">
+            <div class="col-md-4">
+              <p class="text-uppercase">Contact details</p>
+              <p class="m-0">Convallisijusto vestas mus pellentum aenean saoibulum in aliquam volut pat integest nulla.</p>
+              <p class="m-0">Tel: xxxxx xxxxxxxxx</p>
+              <p class="m-0">Fax: xxxxx xxxxxxxxx</p>
+              <p class="m-0">Email: contact@mydomain.com</p>
+            </div>
+            <div class="col-md-4">
+              <p class="text-uppercase">Quick links</p>
+              <ul class="list-unstyled">
+                <li class="pb-3"><a href="#">Link Text Here</a></li>
+                <li class="pb-3"><a href="#">Link Text Here</a></li>
+                <li class="pb-3"><a href="#">Link Text Here</a></li>
+                <li><a href="#">Link Text Here</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+              <form class="form">
+                <p class="text-uppercase">Grab our newsletter</p>
+                <div class="form-group">
+                  <input type="text" class="form-control bg-grey font-weight-lighter" placeholder="Name" id="exampleInputName1">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control bg-grey font-weight-lighter" placeholder="Email" id="exampleInputEmail1">
+                </div>
+                <button type="submit" class="btn btn-primary text-uppercase">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Footer-end copyright goes here -->
+      <div class="footer-end">
+        <div class="container py-3 text-white font-weight-lighter">
+          <div class="float-right">
+            Wunderman Web Academy
+          </div>
+          <div>
+            Copyright © 2018 - All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+	</body>
+</html>
